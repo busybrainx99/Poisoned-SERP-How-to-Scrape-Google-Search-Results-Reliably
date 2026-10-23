@@ -14,7 +14,10 @@ import platform
 from datetime import datetime, timezone
 from pathlib import Path
 import time
-from urllib.parse import urlencode
+from urllib.parse import urlencode, urljoin
+
+# new
+from bs4 import BeautifulSoup 
 
 import requests
 from dotenv import load_dotenv
@@ -47,6 +50,54 @@ def build_google_url(query: str, language: str, country: str, result_count: int)
     """Build the localized Google URL documented for the SERP workflow."""
     params = {"q": query, "hl": language, "gl": country, "num": result_count}
     return "https://www.google.com/search?" + urlencode(params)
+
+
+def parse_organic_html(html: str) -> list[dict]:
+    """Extract organic web-result entries from the returned HTML."""
+    soup = BeautifulSoup(html, "html.parser")
+    results = []
+    seen = set()
+
+    for block in soup.select("div.tF2Cxc"):
+        heading = block.find("h3")
+        if heading is None:
+            continue
+
+        anchor = heading.find_parent("a")
+        if anchor is None:
+            continue
+
+        title = heading.get_text(" ", strip=True)
+        link = anchor.get("href", "")
+        if not title or not link:
+            continue
+
+        identity = (title, link)
+        if identity in seen:
+            continue
+        seen.add(identity)
+
+        displayed_url = None
+        for cite in block.find_all("cite"):
+            text = cite.get_text(" ", strip=True)
+            if text.startswith(("https://", "http://")):
+                displayed_url = text
+                break
+
+        snippet_element = block.select_one(".VwiC3b")
+
+        results.append({
+            "title": title,
+            "url": link,
+            "displayed_url": displayed_url,
+            "snippet": (
+                snippet_element.get_text(" ", strip=True)
+                if snippet_element is not None
+                else None
+            ),
+        })
+
+    return results
 
 
 def fetch_serp(row: dict[str, str], api_key: str, session: requests.Session) -> dict:
@@ -110,10 +161,45 @@ def fetch_serp(row: dict[str, str], api_key: str, session: requests.Session) -> 
         record["response_excerpt"] = response.text[:4000]
         return record
 
+    # record["parsed"] = body["parsed"]
+    # record["html"] = body.get("html")
+    # return record
+
+    # new
+    # record["parsed"] = body["parsed"]
+    # record["html"] = body.get("html")
+
+    # auto_results = record["parsed"].get("organic_results")
+
+    # if isinstance(auto_results, list) and auto_results:
+    #     record["organic_results_source"] = "zenrows_auto"
+    # else:
+    #     html = record["html"]
+    #     fallback_results = (
+    #         parse_organic_html(html)
+    #         if isinstance(html, str) and html.strip()
+    #         else []
+    #     )
+
+    #     record["html_fallback_organic_results"] = fallback_results
+    #     record["organic_results_source"] = (
+    #         "html_fallback" if fallback_results else "none"
+    #     )
+
+    # return record
+
+    #newsest
     record["parsed"] = body["parsed"]
     record["html"] = body.get("html")
-    return record
 
+    html = record["html"]
+    record["html_parsed_organic_results"] = (
+        parse_organic_html(html)
+        if isinstance(html, str) and html.strip()
+        else []
+    )
+
+    return record
 
 def read_queries(path: Path) -> list[dict[str, str]]:
     required = {"query", "language", "country", "proxy_country", "result_count"}

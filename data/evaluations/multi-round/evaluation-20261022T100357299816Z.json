@@ -1,0 +1,3371 @@
+{
+  "evaluated_at": "2026-10-22T10:03:57.299816+00:00",
+  "evaluator_version": "0.3.0",
+  "selected_rounds": [
+    "round-1",
+    "round-2",
+    "round-3"
+  ],
+  "baseline_file": "baseline.json",
+  "baseline_snapshot": {
+    "best running shoes": [
+      "runrepeat.com",
+      "runnersworld.com",
+      "reddit.com",
+      "fleetfeet.com",
+      "rtings.com",
+      "sixminutemile.com",
+      "nike.com",
+      "believeintherun.com",
+      "theruntesters.com"
+    ],
+    "coffee grinder reviews": [
+      "coffeegeek.com",
+      "kaldiscoffee.com",
+      "reddit.com",
+      "seriouseats.com",
+      "coffeechronicler.com",
+      "coffeeness.de",
+      "coffeecircle.com",
+      "bonappetit.com",
+      "techgearlab.com"
+    ],
+    "weather forecast london": [
+      "weather.metoffice.gov.uk",
+      "bbc.co.uk",
+      "accuweather.com",
+      "weather.com",
+      "wunderground.com",
+      "theweatheroutlook.com"
+    ]
+  },
+  "capture_directory": "data/raw",
+  "capture_count": 9,
+  "evaluations": [
+    {
+      "capture_file": "1best-running-shoes-66aad1ad1c-20261021T142311.835633+0000.json",
+      "capture_sha256": "baca0b95f3e8dd4e76600061b04e598709184dc08e2426d4706c4378ca5d8a4a",
+      "query": "best running shoes",
+      "round": "round-1",
+      "collected_at": "2026-10-21T14:23:11.835633+00:00",
+      "settings": {
+        "language": "en",
+        "country": "us",
+        "proxy_country": "us",
+        "result_count": 10,
+        "round": "round-1",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 8,
+      "observed_domains": [
+        "believeintherun.com",
+        "fleetfeet.com",
+        "on.com",
+        "rtings.com",
+        "runnersworld.com",
+        "runrepeat.com",
+        "sixminutemile.com"
+      ],
+      "results_with_unknown_domain": [
+        {
+          "result_id": "b4348ebc776988f4bd3bde13bc88ff101d6c4b36bd4fa3adf757157a1f8f37c1",
+          "result_position": 3,
+          "title": "What are the best running shoes that you'd actually buy ...",
+          "displayed_url": null,
+          "reason": "no usable displayed domain"
+        }
+      ],
+      "result_details": [
+        {
+          "result_id": "cc4e57e77314dc82382076fcd83d402090d801182b875cef304e799354658949",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "7 Best Running Shoes in 2026",
+          "snippet": "Sep 12, 2026 — The New Balance 1080 v15 stands out in the all-rounder game, bringing a whole new level of comfort while sustaining lightness and responsiveness ... Read more",
+          "displayed_url": "https://runrepeat.com › guides › best-running-shoes",
+          "identified_domain": "runrepeat.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "a7b2c999b774cca30b57d5f5951ef63822452cac94146beb41f856dcdd81d07e",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "The 15 Best Running Shoes of 2026",
+          "snippet": "Aug 3, 2026 — The Brooks Ghost is our No. 1 shoe when we recommend new trainers to beginners. The reason why our editors recommend the Ghost: its Goldilocks ... Read more",
+          "displayed_url": "https://www.runnersworld.com › ... › Running Shoes",
+          "identified_domain": "runnersworld.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "b4348ebc776988f4bd3bde13bc88ff101d6c4b36bd4fa3adf757157a1f8f37c1",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "What are the best running shoes that you'd actually buy ...",
+          "snippet": "I’m finally replacing my running shoes and I forgot how overwhelming this category is. Every list says something different and everyone seems to ...",
+          "displayed_url": null,
+          "identified_domain": null,
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "d84b9815b782345349b6e212a1487a8c79159ef7a6878aa4f5d385c15eda0f1f",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "The 10 Best Women's Running Shoes 2026",
+          "snippet": "Sep 9, 2026 — Best Shoe for Beginner Runners: Brooks Ghost 18 Best Cushioned Shoe: HOKA Bondi 9 Best Overall Workout Shoe: On Cloud 6 Best Shoe for ...",
+          "displayed_url": "https://www.fleetfeet.com › running-shoe-buyers-guide",
+          "identified_domain": "fleetfeet.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "6489f95326cbbad1accfc9fca67b7a0d290db181ba4b97b62c9dbc9706de3b0a",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "The 6 Best Running Shoes For Men of 2026",
+          "snippet": "Sep 30, 2026 — Saucony Hurricane 26 our top overall pick, the Brooks Ghost Amp the ' Best For Beginners,' the New Balance 1080v15 the ' Best For Wide Feet,' and ...",
+          "displayed_url": "https://www.rtings.com › Running Shoe › Best",
+          "identified_domain": "rtings.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "f5efe2d0a81098c348f34967402834ae8df44bc0e315b7873e18b4f536751170",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "Best Running Shoes of the Year: 6 Top-Shelf Models",
+          "snippet": "Dec 12, 2025 — Six of the Very Best Running Shoes of the Year · ASICS Megablast · Adidas Adizero Evo SL · FAST-R Nitro Elite 3 · Mount to Coast H1 · Norda 005. Read more",
+          "displayed_url": "https://sixminutemile.com › post › six-of-the-best-runni...",
+          "identified_domain": "sixminutemile.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "8d30a3788ee1d1a4ae398532cfbbbbccd0e6bf3149ad5e1bf7abf0627d61fe7c",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "Best Running Shoes For Women | On United States",
+          "snippet": "Discover the best running shoes for women—built for relentless comfort, speed, and support. Cloudsurfer Max Wide Road Running Shoe",
+          "displayed_url": "https://www.on.com › Shop",
+          "identified_domain": "on.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "cda8e7e555714b8d1e5eeb5c2a3c3e4398a717dd9fa8b185422386149b8f2d29",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "These are the best running shoes for beginners in 2026",
+          "snippet": "5 hours ago — The Best Beginner Running Shoes Right Now · Brooks Ghost Amp · Adidas Adizero Evo SL · New Balance Ellipse v1 · Altra Experience Flow 3 · Asics ... Read more",
+          "displayed_url": "https://believeintherun.com › shoe-reviews › best-begin...",
+          "identified_domain": "believeintherun.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        }
+      ],
+      "observed_domain_count": 7,
+      "extracted_minus_requested": -2,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 9,
+      "matched_domain_count": 6,
+      "matched_domains": [
+        "believeintherun.com",
+        "fleetfeet.com",
+        "rtings.com",
+        "runnersworld.com",
+        "runrepeat.com",
+        "sixminutemile.com"
+      ],
+      "baseline_domains_not_observed": [
+        "nike.com",
+        "reddit.com",
+        "theruntesters.com"
+      ],
+      "additional_domains": [
+        "on.com"
+      ],
+      "baseline_domain_overlap": 0.6666666666666666
+    },
+    {
+      "capture_file": "1coffee-grinder-reviews-66aad1ad1c-20261021T142451.968739+0000.json",
+      "capture_sha256": "792d4431ff25f27d15eab1050d77d4aef5c2e5e4d5c83125eefa78b5df1a163b",
+      "query": "coffee grinder reviews",
+      "round": "round-1",
+      "collected_at": "2026-10-21T14:24:51.968739+00:00",
+      "settings": {
+        "language": "en",
+        "country": "us",
+        "proxy_country": "us",
+        "result_count": 10,
+        "round": "round-1",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 9,
+      "observed_domains": [
+        "coffeechronicler.com",
+        "coffeecircle.com",
+        "coffeegeek.com",
+        "coffeeness.de",
+        "kaldiscoffee.com",
+        "seriouseats.com",
+        "techgearlab.com",
+        "thewaytocoffee.com"
+      ],
+      "results_with_unknown_domain": [
+        {
+          "result_id": "738b8bf03533655614ca15ba1fb9525598f9300a0440c3c923e34445bbbfcb67",
+          "result_position": 4,
+          "title": "What's the Best Coffee Grinder to Buy Right Now?",
+          "displayed_url": null,
+          "reason": "no usable displayed domain"
+        }
+      ],
+      "result_details": [
+        {
+          "result_id": "84543d66a68b743baf92b550f7d6104bea1684f3670f15da9cdc030703249152",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "Best Budget Coffee Grinders for 2026",
+          "snippet": "In 2026, you can get a fantastic , well-built grinder for around $200, Reliable, repairable, and still one of the safest brew grinder recommendations we make. ...",
+          "displayed_url": "https://coffeegeek.com › guides › feature-guides › best-...",
+          "identified_domain": "coffeegeek.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "a84952d8318e84f2c6b098fba40eb0f68b44eacfeeb2af2c4228c9ecda02f09d",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "Coffee Grinders: A Buying Guide (and a Strong Suggestion)",
+          "snippet": "Mar 21, 2023 — 1. Baratza Encore ... The Baratza Encore is not new, but it is still my first recommendation for a grinder that will fit the needs of most people. Read more",
+          "displayed_url": "https://kaldiscoffee.com › blogs › news › coffee-grinde...",
+          "identified_domain": "kaldiscoffee.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "d8c7910c3a32665f609af0191770eba60605442d94d5d1dec2b6a2b3708d2dd0",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "The 9 Best Coffee Grinders of 2026, Tested & Reviewed",
+          "snippet": "Sep 28, 2026 — The Baratza Virtuoso+ is the best coffee grinder for the bean-obsessed . With over 40 settings, it offers versatility without being over-designed ... Read more",
+          "displayed_url": "https://www.seriouseats.com › ... › Coffee & Tea › Gear",
+          "identified_domain": "seriouseats.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "738b8bf03533655614ca15ba1fb9525598f9300a0440c3c923e34445bbbfcb67",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "What's the Best Coffee Grinder to Buy Right Now?",
+          "snippet": "Hey everyone! I’m in the market for a new coffee grinder and I’m looking for some recommendations. I mostly brew pour-over and espresso, so I need something ...",
+          "displayed_url": null,
+          "identified_domain": null,
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "4fe4b02b39f68f3a38c81d173c906daa42c0e3584a9a934ca3820d771543ce9a",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "The 13 Best Coffee Grinders for Home [No *BS Guide ]",
+          "snippet": "Sep 12, 2026 — My top pick overall ➡️ the DF54 — it does espresso and filter properly at a mid-range price . If you're not sure what you need, get this one. Read more",
+          "displayed_url": "https://coffeechronicler.com › Gear",
+          "identified_domain": "coffeechronicler.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "coffee"
+          ],
+          "missing_terms": [
+            "grinder",
+            "reviews"
+          ],
+          "query_term_coverage": 0.3333333333333333
+        },
+        {
+          "result_id": "d64dcc7dcc824e77da48751f9d5c39512a7341e180162d5620981dcb6dd919b2",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "Best Manual Coffee Grinder for 2026 (Tested Picks)",
+          "snippet": "Aug 8, 2026 — For filter and AeroPress the K6 consistently delivers good , even particle distributions, and for espresso it's impressive for a hand grinder . Read more",
+          "displayed_url": "https://www.thewaytocoffee.com › best-manual-coffee-...",
+          "identified_domain": "thewaytocoffee.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "d671fc59f3843cecd4298354142e40ac9467a1fbf4d00de936821a58c2fd2371",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "Best Burr Coffee Grinder in 2026: Let's Grind!",
+          "snippet": "I consider Baratza Sette 270Wi the best burr grinder for espresso beans. Best Budget Coffee Grinder performs really well. Great value for money 60 grind ...",
+          "displayed_url": "https://www.coffeeness.de › best-coffee-grinder",
+          "identified_domain": "coffeeness.de",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "eed6503bfe4e161c13beaf9f6a4cae0e6b04e30e38a046cf066da8cc084e7370",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "15+ Coffee Grinder Reviews | Lab Tested & Ranked",
+          "snippet": "18 coffee grinder reviews reviewed based on our hands-on and lab testing. Read our in-depth reviews and compare to find the right product for you.",
+          "displayed_url": "https://www.techgearlab.com › catalog › coffee-grinder",
+          "identified_domain": "techgearlab.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "5d1fb33cd8a73644a0c25de88d11658656cb7c52e46b6b7380d2ab42846f8b78",
+          "result_position": 9,
+          "valid_entry": true,
+          "title": "Electric Coffee Grinders Test 2026",
+          "snippet": "The grinder convinces with very good grinding results in filter coffee and espresso , intuitive operation, and a solid and high-quality casing. Only the design ... Read more",
+          "displayed_url": "https://www.coffeecircle.com › electric-coffee-grinders-...",
+          "identified_domain": "coffeecircle.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        }
+      ],
+      "observed_domain_count": 8,
+      "extracted_minus_requested": -1,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 9,
+      "matched_domain_count": 7,
+      "matched_domains": [
+        "coffeechronicler.com",
+        "coffeecircle.com",
+        "coffeegeek.com",
+        "coffeeness.de",
+        "kaldiscoffee.com",
+        "seriouseats.com",
+        "techgearlab.com"
+      ],
+      "baseline_domains_not_observed": [
+        "bonappetit.com",
+        "reddit.com"
+      ],
+      "additional_domains": [
+        "thewaytocoffee.com"
+      ],
+      "baseline_domain_overlap": 0.7777777777777778
+    },
+    {
+      "capture_file": "1weather-forecast-london-78865a2446-20261021T142523.885082+0000.json",
+      "capture_sha256": "d273c82e00cf08645a75cb6b799e7d987b5cabb7ad6f3bad5e739404b44b897e",
+      "query": "weather forecast london",
+      "round": "round-1",
+      "collected_at": "2026-10-21T14:25:23.885082+00:00",
+      "settings": {
+        "language": "en",
+        "country": "gb",
+        "proxy_country": "gb",
+        "result_count": 10,
+        "round": "round-1",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 8,
+      "observed_domains": [
+        "accuweather.com",
+        "bbc.co.uk",
+        "theweatheroutlook.com",
+        "weather.com",
+        "weather.metoffice.gov.uk",
+        "wunderground.com"
+      ],
+      "results_with_unknown_domain": [],
+      "result_details": [
+        {
+          "result_id": "47bd47bf3119068e7d4d4e956d70df9de88b0f39bedca136f2757584a684dc44",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "London - BBC Weather",
+          "snippet": "Latest forecast for London ... This afternoon is expected to be cloudy and unsettled . There will be showery outbreaks of rain, turning heavy at times. A windy day ... Read more",
+          "displayed_url": "https://www.bbc.co.uk › weather",
+          "identified_domain": "bbc.co.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "forecast",
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "5a7bebf822be160b1233ed8b9cc13339ebd898335fe85ea70e90a3ee7e6dd65c",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "London (Greater London) weather",
+          "snippet": "Today Heavy rain; 11° Maximum daytime temperature: 11 degrees Celsius; 8° Minimum nighttime temperature: 8 degrees Celsius; Thu 22 Sunny intervals; 14°",
+          "displayed_url": "https://weather.metoffice.gov.uk › forecast",
+          "identified_domain": "weather.metoffice.gov.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "london",
+            "weather"
+          ],
+          "missing_terms": [
+            "forecast"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "b644f41dc2a9f616809274ea7223c0dc68b88b7999efb526e92cf52450a04b85",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "London, London, United Kingdom Weather Forecast",
+          "snippet": "Hourly Weather · 1 PM 50°. rain drop 81% · 2 PM 50°. rain drop 10% · 3 PM 50°. rain drop 7% · 4 PM 50°. rain drop 7% · 5 PM 50°. rain drop 7% · 6 PM 50°. rain ... Read more",
+          "displayed_url": "https://www.accuweather.com › london › weather-forec...",
+          "identified_domain": "accuweather.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "weather"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "b626bfadac197c0f6a43665ca05f5c46fde592015254c5e8e0611edf30893cb1",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "Weather forecast and conditions for London, England - The ...",
+          "snippet": "London, England . ·. As of 16:38 BST. Now56°55°54°. Mostly Cloudy. Feels Like. 51°. HHigh. 59°. LLow. 47°. Chance of Rain. 1%. 0 in. Today's outlook. Read more",
+          "displayed_url": "https://weather.com › england › city › london › today",
+          "identified_domain": "weather.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "87613624ea3bb57da4fbd3e5092583f09033ba488f47fae4956bd9814c510ba3",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "London, United Kingdom 10-Day Weather Forecast",
+          "snippet": "51 °F London Station |Report. Clouds Cloudy Dew Point 49 °F Humidity 92 °% Rainfall 0.08 °in Snow Depth",
+          "displayed_url": "https://www.wunderground.com › forecast › london",
+          "identified_domain": "wunderground.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "feb1dda7d788ec2432088beab2e9bf9fb864f4f3caee581b029337775a3eec7b",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "City of London - BBC Weather",
+          "snippet": "Day by day forecast ; Today · Light rain showers and a moderate breeze · 53° ; Thursday 22nd OctoberThu 22nd · Sunny intervals and a gentle breeze · 58° ; Friday 23rd ... Read more",
+          "displayed_url": "https://www.bbc.co.uk › weather",
+          "identified_domain": "bbc.co.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "forecast"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "29814295044af451285ec2e7f4da4df2354793847b7376dde5f2faf6c93fc84f",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "London 16 day weather forecast",
+          "snippet": "Rain will feature on several days, interspersed with drier spells . Expect rather cloudy conditions, averaging 63% cover, bright or clear for around 135 hours ...",
+          "displayed_url": "https://www.theweatheroutlook.com › forecast › london",
+          "identified_domain": "theweatheroutlook.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "23d1eb4193b726e7afafa5f322c817801b9e8a7a4b95e57d41baad5f92defd45",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "London & South East England weather",
+          "snippet": "An unsettled and cloudy day with outbreaks of rain or showers , some of these likely heavy at times. Becoming windy, with a risk of gales near the coast. Maximum ... Read more",
+          "displayed_url": "https://weather.metoffice.gov.uk › forecast › regional",
+          "identified_domain": "weather.metoffice.gov.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "london",
+            "weather"
+          ],
+          "missing_terms": [
+            "forecast"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        }
+      ],
+      "observed_domain_count": 6,
+      "extracted_minus_requested": -2,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 6,
+      "matched_domain_count": 6,
+      "matched_domains": [
+        "accuweather.com",
+        "bbc.co.uk",
+        "theweatheroutlook.com",
+        "weather.com",
+        "weather.metoffice.gov.uk",
+        "wunderground.com"
+      ],
+      "baseline_domains_not_observed": [],
+      "additional_domains": [],
+      "baseline_domain_overlap": 1.0
+    },
+    {
+      "capture_file": "2best-running-shoes-bb9b9bbe9b-20261021T150514.666657+0000.json",
+      "capture_sha256": "41c0be0ea4b1db7ad5dd4c61d0b761584e0d60311e28be4b0b179317a551233f",
+      "query": "best running shoes",
+      "round": "round-2",
+      "collected_at": "2026-10-21T15:05:14.666657+00:00",
+      "settings": {
+        "language": "en",
+        "country": "us",
+        "proxy_country": "us",
+        "result_count": 10,
+        "round": "round-2",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 8,
+      "observed_domains": [
+        "amazon.com",
+        "rei.com",
+        "rtings.com",
+        "runnersworld.com",
+        "runrepeat.com",
+        "sixminutemile.com",
+        "theruntesters.com"
+      ],
+      "results_with_unknown_domain": [
+        {
+          "result_id": "394cf72a2bb173424b5731052adf15fe48c9c00666ac63aa0170dccf6b88476c",
+          "result_position": 3,
+          "title": "What are the best running shoes that you'd actually buy ...",
+          "displayed_url": null,
+          "reason": "no usable displayed domain"
+        }
+      ],
+      "result_details": [
+        {
+          "result_id": "f4ffa48647f336fb4c95c4d47882f975ea4ffe9ae2c3c61d66676a8d08a7bee6",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "7 Best Running Shoes in 2026",
+          "snippet": "Sep 12, 2026 — The New Balance 1080 v15 stands out in the all-rounder game, bringing a whole new level of comfort while sustaining lightness and responsiveness ... Read more",
+          "displayed_url": "https://runrepeat.com › guides › best-running-shoes",
+          "identified_domain": "runrepeat.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "d976e03256557bb81e05a404ee4d0b19854f7723a154cd7e60bdc02a5da51519",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "The 15 Best Running Shoes of 2026",
+          "snippet": "Aug 3, 2026 — Our Editors' Top Pick: Adidas Adizero Evo SL . Our Best Value Pick: New Balance Ellipse. Best Daily Trainer for Narrow Feet: Brooks Ghost 18 … t ...",
+          "displayed_url": "https://www.runnersworld.com › ... › Running Shoes",
+          "identified_domain": "runnersworld.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "394cf72a2bb173424b5731052adf15fe48c9c00666ac63aa0170dccf6b88476c",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "What are the best running shoes that you'd actually buy ...",
+          "snippet": "I’m finally replacing my running shoes and I forgot how overwhelming this category is. Every list says something different and everyone seems to ...",
+          "displayed_url": null,
+          "identified_domain": null,
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "57e0ad44880991efb8a86812fa7c4993c56fce3e563be5c894376c6ee4330364",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "The Best Running Shoes 2026",
+          "snippet": "The Adidas Adizero Evo SL is one of the best shoes we've tested in several years and offers outstanding value for money as well as a high level of performance. Read more",
+          "displayed_url": "https://theruntesters.com › Running Shoes",
+          "identified_domain": "theruntesters.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "66304d4837ebf72dfd22ec3799ed73156dc3a74b8205390fd5dc33ab166a9ee8",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "The 6 Best Running Shoes For Men of 2026",
+          "snippet": "Sep 30, 2026 — Saucony Hurricane 26 our top overall pick, the Brooks Ghost Amp the ' Best For Beginners,' the New Balance 1080v15 the ' Best For Wide Feet,' and ...",
+          "displayed_url": "https://www.rtings.com › Running Shoe › Best",
+          "identified_domain": "rtings.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "f12bf05397ce3a69f45a4522f3133e4e7ee9f23c32e30a6532453214506e5f7f",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "Best Running Shoes of the Year: 6 Top-Shelf Models",
+          "snippet": "Dec 12, 2025 — Six of the Very Best Running Shoes of the Year · ASICS Megablast · Adidas Adizero Evo SL · FAST-R Nitro Elite 3 · Mount to Coast H1 · Norda 005. Read more",
+          "displayed_url": "https://sixminutemile.com › post › six-of-the-best-runni...",
+          "identified_domain": "sixminutemile.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "f251d896e6bad1b3f9edd84bdd71d8c752f3705e78ba9e52e797f1d4f252ee2c",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "Best Men's Road Running Shoes",
+          "snippet": "Road Running · #1 · Brooks Men's Adrenaline GTS 25 Running Shoe · #2 · Brooks Men's Revel 8 Running Shoe · #3 · Under Armour Men's Charged Assert 10 Shoes · #4. Read more",
+          "displayed_url": "https://www.amazon.com › zgbs › fashion",
+          "identified_domain": "amazon.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "8fe28903d07fe662b41b51f410969e620d48750a232374f1c6f9982444a12c03",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "Top Rated Running Shoes | REI Co-op",
+          "snippet": "Top Rated Running Shoes · HOKA Bondi 9 Road-Running Shoes - Men's 0 · Brooks Adrenaline GTS 25 Road-Running Shoes - Women's 0 · HOKA Clifton 11 Road-Running ... Read more",
+          "displayed_url": "https://www.rei.com › top-rated-running-shoes",
+          "identified_domain": "rei.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [
+            "best"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        }
+      ],
+      "observed_domain_count": 7,
+      "extracted_minus_requested": -2,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 9,
+      "matched_domain_count": 5,
+      "matched_domains": [
+        "rtings.com",
+        "runnersworld.com",
+        "runrepeat.com",
+        "sixminutemile.com",
+        "theruntesters.com"
+      ],
+      "baseline_domains_not_observed": [
+        "believeintherun.com",
+        "fleetfeet.com",
+        "nike.com",
+        "reddit.com"
+      ],
+      "additional_domains": [
+        "amazon.com",
+        "rei.com"
+      ],
+      "baseline_domain_overlap": 0.5555555555555556
+    },
+    {
+      "capture_file": "2coffee-grinder-reviews-bb9b9bbe9b-20261021T150526.075171+0000.json",
+      "capture_sha256": "3678110ea09a2416fa2aa8d5bbd8548951fd26b7c400695fcd831a8b3707a146",
+      "query": "coffee grinder reviews",
+      "round": "round-2",
+      "collected_at": "2026-10-21T15:05:26.075171+00:00",
+      "settings": {
+        "language": "en",
+        "country": "us",
+        "proxy_country": "us",
+        "result_count": 10,
+        "round": "round-2",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 9,
+      "observed_domains": [
+        "amazon.com",
+        "bonappetit.com",
+        "coffeechronicler.com",
+        "coffeegeek.com",
+        "coffeeness.de",
+        "kaldiscoffee.com",
+        "seriouseats.com",
+        "techgearlab.com"
+      ],
+      "results_with_unknown_domain": [
+        {
+          "result_id": "edf24f5f7bfb5418081702dc142c47d987b5510b249d74cdd86fea6986f74a07",
+          "result_position": 4,
+          "title": "What's the Best Coffee Grinder to Buy Right Now?",
+          "displayed_url": null,
+          "reason": "no usable displayed domain"
+        }
+      ],
+      "result_details": [
+        {
+          "result_id": "006bbe2c844b85017bd9e6eacaf398a63518072625b42d9c96f87949a9afb9b5",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "Best Budget Coffee Grinders for 2026",
+          "snippet": "In 2026, you can get a fantastic , well-built grinder for around $200, Reliable, repairable, and still one of the safest brew grinder recommendations we make. ...",
+          "displayed_url": "https://coffeegeek.com › guides › feature-guides › best-...",
+          "identified_domain": "coffeegeek.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "dd0e1f7bf45726cdffbc01b8e63e1aff041a7ee159d027ef0e6fc190b292c2be",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "Coffee Grinders: A Buying Guide (and a Strong Suggestion)",
+          "snippet": "Mar 21, 2023 — 1. Baratza Encore ... The Baratza Encore is not new, but it is still my first recommendation for a grinder that will fit the needs of most people. Read more",
+          "displayed_url": "https://kaldiscoffee.com › blogs › news › coffee-grinde...",
+          "identified_domain": "kaldiscoffee.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "e358b719b3d41ea520600e6e18448063f24ba7e3d7afb814fb8b122360d45008",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "The 9 Best Coffee Grinders of 2026, Tested & Reviewed",
+          "snippet": "Sep 28, 2026 — The Baratza Virtuoso+ is the best coffee grinder for the bean-obsessed . With over 40 settings, it offers versatility without being over-designed ... Read more",
+          "displayed_url": "https://www.seriouseats.com › ... › Coffee & Tea › Gear",
+          "identified_domain": "seriouseats.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "edf24f5f7bfb5418081702dc142c47d987b5510b249d74cdd86fea6986f74a07",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "What's the Best Coffee Grinder to Buy Right Now?",
+          "snippet": "Hey everyone! I’m in the market for a new coffee grinder and I’m looking for some recommendations. I mostly brew pour-over and espresso, so I need something ...",
+          "displayed_url": null,
+          "identified_domain": null,
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "c733c2673656d344460ccc429c34bb26c1259d7ad8215beea2053fd57c7e15a6",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "The 13 Best Coffee Grinders for Home [No *BS Guide ]",
+          "snippet": "Sep 12, 2026 — The Timemore C2 has a good size, and good built quality when considering the price. It can last you for years without breaking or getting dull ... Read more",
+          "displayed_url": "https://coffeechronicler.com › Gear",
+          "identified_domain": "coffeechronicler.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "coffee"
+          ],
+          "missing_terms": [
+            "grinder",
+            "reviews"
+          ],
+          "query_term_coverage": 0.3333333333333333
+        },
+        {
+          "result_id": "63431e260d40b0a907fb4da6a10a920b5f81adfd057c5f2a3fecf77c06fe01f6",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "Best Burr Coffee Grinder in 2026: Let's Grind!",
+          "snippet": "I consider Baratza Sette 270Wi the best burr grinder for espresso beans. Best Budget Coffee Grinder performs really well. Great value for money 60 grind ...",
+          "displayed_url": "https://www.coffeeness.de › best-coffee-grinder",
+          "identified_domain": "coffeeness.de",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "bf3896fb82843eda0484fcfcc567ed74bcea24dd50372618cb0a95cd4785465d",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "Your Coffee Will Be Better If You Get the Right Grinder",
+          "snippet": "Aug 6, 2026 — The best coffee grinder overall: Fellow Opus 2 ; The best grinder for the price: Oxo Compact Conical Burr Grinder ; Best for espresso lovers: ... Read more",
+          "displayed_url": "https://www.bonappetit.com › Shopping › Appliances",
+          "identified_domain": "bonappetit.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "5028e8f6e8a225ed29a8df1b10900b2be83524ae5c31cbca168867f9ca0f2588",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "15+ Coffee Grinder Reviews | Lab Tested & Ranked",
+          "snippet": "18 coffee grinder reviews reviewed based on our hands-on and lab testing. Editors' Choice Award $200",
+          "displayed_url": "https://www.techgearlab.com › catalog › coffee-grinder",
+          "identified_domain": "techgearlab.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "29acfdccdc83849b971aee7667bdd7bfe11c7a341e142d093b92949009da25bb",
+          "result_position": 9,
+          "valid_entry": true,
+          "title": "Best Burr Coffee Grinders",
+          "snippet": "Discover the best Burr Coffee Grinders in Best Sellers . Find the top 100 most popular items in Amazon Home & Kitchen Best Sellers.",
+          "displayed_url": "https://www.amazon.com › zgbs › home-garden",
+          "identified_domain": "amazon.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "coffee"
+          ],
+          "matched_terms": [
+            "coffee"
+          ],
+          "missing_terms": [
+            "grinder",
+            "reviews"
+          ],
+          "query_term_coverage": 0.3333333333333333
+        }
+      ],
+      "observed_domain_count": 8,
+      "extracted_minus_requested": -1,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 9,
+      "matched_domain_count": 7,
+      "matched_domains": [
+        "bonappetit.com",
+        "coffeechronicler.com",
+        "coffeegeek.com",
+        "coffeeness.de",
+        "kaldiscoffee.com",
+        "seriouseats.com",
+        "techgearlab.com"
+      ],
+      "baseline_domains_not_observed": [
+        "coffeecircle.com",
+        "reddit.com"
+      ],
+      "additional_domains": [
+        "amazon.com"
+      ],
+      "baseline_domain_overlap": 0.7777777777777778
+    },
+    {
+      "capture_file": "2weather-forecast-london-773a8250ca-20261021T150638.328169+0000.json",
+      "capture_sha256": "a259c16ed91e7c112cd99d0a67259eb9fca3698dfa0827b23dcbb13032bf458e",
+      "query": "weather forecast london",
+      "round": "round-2",
+      "collected_at": "2026-10-21T15:06:38.328169+00:00",
+      "settings": {
+        "language": "en",
+        "country": "gb",
+        "proxy_country": "gb",
+        "result_count": 10,
+        "round": "round-2",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 8,
+      "observed_domains": [
+        "accuweather.com",
+        "bbc.co.uk",
+        "theweatheroutlook.com",
+        "weather.com",
+        "weather.metoffice.gov.uk",
+        "wunderground.com"
+      ],
+      "results_with_unknown_domain": [],
+      "result_details": [
+        {
+          "result_id": "7f55a0b8c2a7d70e4ea9a88c3a60c7d74e1efbe3b9aaa6019b3cdd8ffd3964d7",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "London - BBC Weather",
+          "snippet": "Latest forecast for London ... This afternoon is expected to be cloudy and unsettled . There will be showery outbreaks of rain, turning heavy at times. A windy day ... Read more",
+          "displayed_url": "https://www.bbc.co.uk › weather",
+          "identified_domain": "bbc.co.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "forecast",
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "d1f64067c4bdb6cedff831e43fd951b288de56861b36e8d42ba00efbdb5b1a0f",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "London (Greater London) weather",
+          "snippet": "Today Heavy rain; 11° Maximum daytime temperature: 11 degrees Celsius; 8° Minimum nighttime temperature: 8 degrees Celsius; Thu 22 Sunny intervals; 14°",
+          "displayed_url": "https://weather.metoffice.gov.uk › forecast",
+          "identified_domain": "weather.metoffice.gov.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "london",
+            "weather"
+          ],
+          "missing_terms": [
+            "forecast"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "f7a73780ce8933b21b68a21e9ec7ce467f5944d6ada60a1db187aa41881adf10",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "London, London, United Kingdom Weather Forecast",
+          "snippet": "Hourly Weather · 1 PM 50°. rain drop 81% · 2 PM 50°. rain drop 10% · 3 PM 50°. rain drop 7% · 4 PM 50°. rain drop 7% · 5 PM 50°. rain drop 7% · 6 PM 50°. rain ... Read more",
+          "displayed_url": "https://www.accuweather.com › london › weather-forec...",
+          "identified_domain": "accuweather.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "weather"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "fd7f10ce9ac8b28e274d13e5e3ade1f6128d436edb3eefac7b8b5322588deea7",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "London, United Kingdom 10-Day Weather Forecast",
+          "snippet": "51 °F London Station |Report. Clouds Cloudy Dew Point 49 °F Humidity 92 °% Rainfall 0.08 °in Snow Depth",
+          "displayed_url": "https://www.wunderground.com › forecast › london",
+          "identified_domain": "wunderground.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "84463c571d60afd624113a0ac0d7916b7b8d7c15a1b15712a9da7f84882a6b1c",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "Weather forecast and conditions for London, England - The ...",
+          "snippet": "London, England . ·. As of 16:38 BST. Now56°55°54°. Mostly Cloudy. Feels Like. 51°. HHigh. 59°. LLow. 47°. Chance of Rain. 1%. 0 in. Today's outlook. Read more",
+          "displayed_url": "https://weather.com › england › city › london › today",
+          "identified_domain": "weather.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "501d6980a430e061fed78d08cec1c25f7c7f08457e47409b47e00cd0fb6a1885",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "London 16 day weather forecast",
+          "snippet": "Rain will feature on several days, interspersed with drier spells . Expect rather cloudy conditions, averaging 63% cover, bright or clear for around 135 hours ...",
+          "displayed_url": "https://www.theweatheroutlook.com › forecast › london",
+          "identified_domain": "theweatheroutlook.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "6392f0c2e6a21eba774a601f9bd17443faec1b7d8053e21cb4a78b8ee5f6ea8f",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "London - BBC Weather",
+          "snippet": "Today , Sunny and a moderate breeze Sunny 15° 59° Low Monday. Sunny and light winds Sunny 18° 64° Low , Sunny and a gentle breeze Sunny 17° 63°",
+          "displayed_url": "https://www.bbc.co.uk › weather",
+          "identified_domain": "bbc.co.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "london",
+            "weather"
+          ],
+          "missing_terms": [
+            "forecast"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "63a50bfa43091835974ea025aef781f935f6cbeedf61ed27fb8bfc97b960bba8",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "London & South East England weather",
+          "snippet": "An unsettled and cloudy day with outbreaks of rain or showers , some of these likely heavy at times. Becoming windy, with a risk of gales near the coast. Maximum ... Read more",
+          "displayed_url": "https://weather.metoffice.gov.uk › forecast › regional",
+          "identified_domain": "weather.metoffice.gov.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "london",
+            "weather"
+          ],
+          "missing_terms": [
+            "forecast"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        }
+      ],
+      "observed_domain_count": 6,
+      "extracted_minus_requested": -2,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 6,
+      "matched_domain_count": 6,
+      "matched_domains": [
+        "accuweather.com",
+        "bbc.co.uk",
+        "theweatheroutlook.com",
+        "weather.com",
+        "weather.metoffice.gov.uk",
+        "wunderground.com"
+      ],
+      "baseline_domains_not_observed": [],
+      "additional_domains": [],
+      "baseline_domain_overlap": 1.0
+    },
+    {
+      "capture_file": "best-running-shoes-8613b5296c-20261021T150905.501340+0000.json",
+      "capture_sha256": "1c23f13a4aee3bd0f6b54bb84cc07e46db9248239a254e64d1aa5cf55c5e250b",
+      "query": "best running shoes",
+      "round": "round-3",
+      "collected_at": "2026-10-21T15:09:05.501340+00:00",
+      "settings": {
+        "language": "en",
+        "country": "us",
+        "proxy_country": "us",
+        "result_count": 10,
+        "round": "round-3",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 8,
+      "observed_domains": [
+        "fleetfeet.com",
+        "nike.com",
+        "on.com",
+        "rtings.com",
+        "runnersworld.com",
+        "runrepeat.com",
+        "sixminutemile.com"
+      ],
+      "results_with_unknown_domain": [
+        {
+          "result_id": "5bbfdd496044297b9392a77668df33728f42ab51341bc1e5b15a9160c106e0a3",
+          "result_position": 3,
+          "title": "What are the best running shoes that you'd actually buy ...",
+          "displayed_url": null,
+          "reason": "no usable displayed domain"
+        }
+      ],
+      "result_details": [
+        {
+          "result_id": "0d4afa147f5d809412085d799d331e09fdc948645679016e276e1e32133da06f",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "7 Best Running Shoes in 2026",
+          "snippet": "Sep 12, 2026 — The New Balance 1080 v15 stands out in the all-rounder game, bringing a whole new level of comfort while sustaining lightness and responsiveness ... Read more",
+          "displayed_url": "https://runrepeat.com › guides › best-running-shoes",
+          "identified_domain": "runrepeat.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "f9c863ca178db6465e327ce8ada96378f803bfcd242b82c8b4c1bfa40960b8f9",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "The 15 Best Running Shoes of 2026",
+          "snippet": "Aug 3, 2026 — The Brooks Ghost is our No. 1 shoe when we recommend new trainers to beginners. The reason why our editors recommend the Ghost: its Goldilocks ... Read more",
+          "displayed_url": "https://www.runnersworld.com › ... › Running Shoes",
+          "identified_domain": "runnersworld.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "5bbfdd496044297b9392a77668df33728f42ab51341bc1e5b15a9160c106e0a3",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "What are the best running shoes that you'd actually buy ...",
+          "snippet": "I’m finally replacing my running shoes and I forgot how overwhelming this category is. Every list says something different and everyone seems to ...",
+          "displayed_url": null,
+          "identified_domain": null,
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "7af872938360817ae0e99564817475f78dff5178132a5f365d50a6309d2abc67",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "The 10 Best Women's Running Shoes 2026",
+          "snippet": "Sep 9, 2026 — The women's Mizuno Wave Rider has long been one of the best running shoes on the market, and the Wave Rider 29 is sure to maintain its spot on ... Read more",
+          "displayed_url": "https://www.fleetfeet.com › running-shoe-buyers-guide",
+          "identified_domain": "fleetfeet.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "853f67b99623fd2c64d21163e84f74dc15c2fe68f2aa013ae6c3ca9e2ffe8bf3",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "The 6 Best Running Shoes For Men of 2026",
+          "snippet": "Sep 30, 2026 — The best running shoe for men we've tested for beginners is the ASICS NOVABLAST 6. You get more stability than with the ASICS MEGABLAST or ... Read more",
+          "displayed_url": "https://www.rtings.com › Running Shoe › Best",
+          "identified_domain": "rtings.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "c6578b4d647804855fbb5baea4f282782fae7afc6c0a8adf9229c49aaef9acab",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "Best Running Shoes of the Year: 6 Top-Shelf Models",
+          "snippet": "Dec 12, 2025 — Six of the Very Best Running Shoes of the Year · ASICS Megablast · Adidas Adizero Evo SL · FAST-R Nitro Elite 3 · Mount to Coast H1 · Norda 005. Read more",
+          "displayed_url": "https://sixminutemile.com › post › six-of-the-best-runni...",
+          "identified_domain": "sixminutemile.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "7d18bc80fd11d05cb799570f3debcdd5970c59fb591a2628350578d671594988",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "Best Running Shoes For Women | On United States",
+          "snippet": "Push boundaries. Discover the best running shoes for women —built for relentless comfort, speed, and support. Move beyond limits.",
+          "displayed_url": "https://www.on.com › Shop",
+          "identified_domain": "on.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "9ba297808a44fb49631733085964dc938aa3f054a62afaa8d824a7216d2aafc1",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "Men's Best Sellers Running Shoes",
+          "snippet": "Find Mens Best Sellers Running Shoes at Nike.com. Free delivery and returns. Nike Pegasus 42 Men's Road Running Shoes $145 Nike",
+          "displayed_url": "https://www.nike.com › Running › Shoes",
+          "identified_domain": "nike.com",
+          "query_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "title_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "snippet_matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "matched_terms": [
+            "best",
+            "running",
+            "shoes"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        }
+      ],
+      "observed_domain_count": 7,
+      "extracted_minus_requested": -2,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 9,
+      "matched_domain_count": 6,
+      "matched_domains": [
+        "fleetfeet.com",
+        "nike.com",
+        "rtings.com",
+        "runnersworld.com",
+        "runrepeat.com",
+        "sixminutemile.com"
+      ],
+      "baseline_domains_not_observed": [
+        "believeintherun.com",
+        "reddit.com",
+        "theruntesters.com"
+      ],
+      "additional_domains": [
+        "on.com"
+      ],
+      "baseline_domain_overlap": 0.6666666666666666
+    },
+    {
+      "capture_file": "coffee-grinder-reviews-8613b5296c-20261021T150945.044570+0000.json",
+      "capture_sha256": "225361817d9d59a3850bf90db15f6b81c30b9ad8557aa21acaec59930fd55fd5",
+      "query": "coffee grinder reviews",
+      "round": "round-3",
+      "collected_at": "2026-10-21T15:09:45.044570+00:00",
+      "settings": {
+        "language": "en",
+        "country": "us",
+        "proxy_country": "us",
+        "result_count": 10,
+        "round": "round-3",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 9,
+      "observed_domains": [
+        "bonappetit.com",
+        "coffeechronicler.com",
+        "coffeecircle.com",
+        "coffeegeek.com",
+        "coffeeness.de",
+        "kaldiscoffee.com",
+        "seriouseats.com",
+        "techgearlab.com"
+      ],
+      "results_with_unknown_domain": [
+        {
+          "result_id": "7bc5d18504c780ef7c47cdf19e71f1e0bd6af4501de09e0e92b471b4e402e6ff",
+          "result_position": 3,
+          "title": "What's the Best Coffee Grinder to Buy Right Now?",
+          "displayed_url": null,
+          "reason": "no usable displayed domain"
+        }
+      ],
+      "result_details": [
+        {
+          "result_id": "920656df02a42583615b0b70a45328261ee3d1bc684ba8c0738309e42c5ff126",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "Best Budget Coffee Grinders for 2026",
+          "snippet": "In 2026, you can get a fantastic , well-built grinder for around $200, Reliable, repairable, and still one of the safest brew grinder recommendations we make. ...",
+          "displayed_url": "https://coffeegeek.com › guides › feature-guides › best-...",
+          "identified_domain": "coffeegeek.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "ce58ad6961d44e7e4918738ff1a517ace4dbbccdbeb554cd16f7d9bbe2de158d",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "Coffee Grinders: A Buying Guide (and a Strong Suggestion)",
+          "snippet": "Mar 21, 2023 — 1. Baratza Encore ... The Baratza Encore is not new, but it is still my first recommendation for a grinder that will fit the needs of most people. Read more",
+          "displayed_url": "https://kaldiscoffee.com › blogs › news › coffee-grinde...",
+          "identified_domain": "kaldiscoffee.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "7bc5d18504c780ef7c47cdf19e71f1e0bd6af4501de09e0e92b471b4e402e6ff",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "What's the Best Coffee Grinder to Buy Right Now?",
+          "snippet": "Hey everyone! I’m in the market for a new coffee grinder and I’m looking for some recommendations. I mostly brew pour-over and espresso, so I need something ...",
+          "displayed_url": null,
+          "identified_domain": null,
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "f73c854bd245b6c590dc012d80bab0172b9f7beccac8006fdb25b2cf4960e6f7",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "The 9 Best Coffee Grinders of 2026, Tested & Reviewed",
+          "snippet": "Sep 28, 2026 — The Baratza Virtuoso+ is the best coffee grinder for the bean-obsessed . With over 40 settings, it offers versatility without being over-designed ... Read more",
+          "displayed_url": "https://www.seriouseats.com › ... › Coffee & Tea › Gear",
+          "identified_domain": "seriouseats.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "b03ed84acb39113ea28108c016ec348525e96d8a87f73de408dee64ba50baca7",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "The 13 Best Coffee Grinders for Home [No *BS Guide ]",
+          "snippet": "Sep 12, 2026 — The Timemore C2 has a good size, and good built quality when considering the price. It can last you for years without breaking or getting dull ... Read more",
+          "displayed_url": "https://coffeechronicler.com › Gear",
+          "identified_domain": "coffeechronicler.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "coffee"
+          ],
+          "missing_terms": [
+            "grinder",
+            "reviews"
+          ],
+          "query_term_coverage": 0.3333333333333333
+        },
+        {
+          "result_id": "6d71ab031119ac4ab71f4dde529a7d375ea0e0edb472e82c6f93be492f5ee7f9",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "Best Burr Coffee Grinder in 2026: Let's Grind!",
+          "snippet": "I consider Baratza Sette 270Wi the best burr grinder for espresso beans. Best Budget Coffee Grinder performs really well. Great value for money 60 grind ...",
+          "displayed_url": "https://www.coffeeness.de › best-coffee-grinder",
+          "identified_domain": "coffeeness.de",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "00f724a55d94503b282c71c3dff60092463e81b4c3ff6815f445db1ad98d3737",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "Electric Coffee Grinders Test 2026",
+          "snippet": "The grinder convinces with very good grinding results in filter coffee and espresso , intuitive operation, and a solid and high-quality casing. Only the design ... Read more",
+          "displayed_url": "https://www.coffeecircle.com › electric-coffee-grinders-...",
+          "identified_domain": "coffeecircle.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "7e1e00fe903d4e53aba81eeba3ce4bf58c475864d825a75963ba513ea03b5ed4",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "Your Coffee Will Be Better If You Get the Right Grinder",
+          "snippet": "Aug 6, 2026 — The best coffee grinder overall: Fellow Opus 2 ; The best grinder for the price: Oxo Compact Conical Burr Grinder ; Best for espresso lovers: ... Read more",
+          "displayed_url": "https://www.bonappetit.com › Shopping › Appliances",
+          "identified_domain": "bonappetit.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder"
+          ],
+          "missing_terms": [
+            "reviews"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "e276ff50c986b5e5d557140e4e510ab3f057e979988600836d8e225118e34477",
+          "result_position": 9,
+          "valid_entry": true,
+          "title": "15+ Coffee Grinder Reviews | Lab Tested & Ranked",
+          "snippet": "18 coffee grinder reviews reviewed based on our hands-on and lab testing. Read our in-depth reviews and compare to find the right product for you.",
+          "displayed_url": "https://www.techgearlab.com › catalog › coffee-grinder",
+          "identified_domain": "techgearlab.com",
+          "query_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "title_matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "snippet_matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "matched_terms": [
+            "coffee",
+            "grinder",
+            "reviews"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        }
+      ],
+      "observed_domain_count": 8,
+      "extracted_minus_requested": -1,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 9,
+      "matched_domain_count": 8,
+      "matched_domains": [
+        "bonappetit.com",
+        "coffeechronicler.com",
+        "coffeecircle.com",
+        "coffeegeek.com",
+        "coffeeness.de",
+        "kaldiscoffee.com",
+        "seriouseats.com",
+        "techgearlab.com"
+      ],
+      "baseline_domains_not_observed": [
+        "reddit.com"
+      ],
+      "additional_domains": [],
+      "baseline_domain_overlap": 0.8888888888888888
+    },
+    {
+      "capture_file": "weather-forecast-london-77f2a2f10d-20261021T151019.029646+0000.json",
+      "capture_sha256": "a7d99a641d1d3bf1c8e862566cf26fec5e5603a217b0b736a441915435dcd0f7",
+      "query": "weather forecast london",
+      "round": "round-3",
+      "collected_at": "2026-10-21T15:10:19.029646+00:00",
+      "settings": {
+        "language": "en",
+        "country": "gb",
+        "proxy_country": "gb",
+        "result_count": 10,
+        "round": "round-3",
+        "route": "zenrows_fetch",
+        "mode": "auto",
+        "extract": "auto"
+      },
+      "http_status": 200,
+      "results_source": "html_parsed_organic_results",
+      "domain_source": "displayed_url",
+      "request_status": "http_200",
+      "parser_status": "available",
+      "baseline_status": "available",
+      "requested_result_count": 10,
+      "html_parsed_result_count": 8,
+      "observed_domains": [
+        "accuweather.com",
+        "bbc.co.uk",
+        "theweatheroutlook.com",
+        "weather.com",
+        "weather.metoffice.gov.uk",
+        "wunderground.com"
+      ],
+      "results_with_unknown_domain": [],
+      "result_details": [
+        {
+          "result_id": "f36782bc7c46e5fceb07bb668adc492642e5668ae765063f170425a259d1fdba",
+          "result_position": 1,
+          "valid_entry": true,
+          "title": "London - BBC Weather",
+          "snippet": "Latest forecast for London ... This afternoon is expected to be cloudy and unsettled . There will be showery outbreaks of rain, turning heavy at times. A windy day ... Read more",
+          "displayed_url": "https://www.bbc.co.uk › weather",
+          "identified_domain": "bbc.co.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "forecast",
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "42d24b35f9fae01e055c1fffa670a0446ad12edbf92f5d9f6137ae482af8780f",
+          "result_position": 2,
+          "valid_entry": true,
+          "title": "London (Greater London) weather",
+          "snippet": "Today Heavy rain; 11° Maximum daytime temperature: 11 degrees Celsius; 8° Minimum nighttime temperature: 8 degrees Celsius; Thu 22 Sunny intervals; 14°",
+          "displayed_url": "https://weather.metoffice.gov.uk › forecast",
+          "identified_domain": "weather.metoffice.gov.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "london",
+            "weather"
+          ],
+          "missing_terms": [
+            "forecast"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "e542dc645bcb19e245a573e73b58973f90d6fb56d63d00a3a9bd932e555ae931",
+          "result_position": 3,
+          "valid_entry": true,
+          "title": "London, London, United Kingdom Weather Forecast",
+          "snippet": "Hourly Weather · 1 PM 50°. rain drop 81% · 2 PM 50°. rain drop 10% · 3 PM 50°. rain drop 7% · 4 PM 50°. rain drop 7% · 5 PM 50°. rain drop 7% · 6 PM 50°. rain ... Read more",
+          "displayed_url": "https://www.accuweather.com › london › weather-forec...",
+          "identified_domain": "accuweather.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "weather"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "d54cfade7cc95a758fc25e86a45f28b05f5f9359e085f3d0714fd78914033e07",
+          "result_position": 4,
+          "valid_entry": true,
+          "title": "Weather forecast and conditions for London, England - The ...",
+          "snippet": "London, England . ·. As of 16:38 BST. Now56°55°54°. Mostly Cloudy. Feels Like. 51°. HHigh. 59°. LLow. 47°. Chance of Rain. 1%. 0 in. Today's outlook. Read more",
+          "displayed_url": "https://weather.com › england › city › london › today",
+          "identified_domain": "weather.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "9ada98afa38780112812b3feb8ef4e41365eab1eea66059e1e5a11843cf98073",
+          "result_position": 5,
+          "valid_entry": true,
+          "title": "London - BBC Weather",
+          "snippet": "Today , Sunny and a moderate breeze Sunny 15° 59° Low Monday. Sunny and light winds Sunny 18° 64° Low , Sunny and a gentle breeze Sunny 17° 63°",
+          "displayed_url": "https://www.bbc.co.uk › weather",
+          "identified_domain": "bbc.co.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "london",
+            "weather"
+          ],
+          "missing_terms": [
+            "forecast"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        },
+        {
+          "result_id": "7502b089ee4b8a77e25b22ad204aa7b0aa582b2ef3d169103caf663924e069f4",
+          "result_position": 6,
+          "valid_entry": true,
+          "title": "London, United Kingdom 10-Day Weather Forecast",
+          "snippet": "51 °F London Station |Report. Clouds Cloudy Dew Point 49 °F Humidity 92 °% Rainfall 0.08 °in Snow Depth",
+          "displayed_url": "https://www.wunderground.com › forecast › london",
+          "identified_domain": "wunderground.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [
+            "london"
+          ],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "60a1b62894a17af0296883c825bc393318965fdea7a88edabe2dc387c850821c",
+          "result_position": 7,
+          "valid_entry": true,
+          "title": "London 16 day weather forecast",
+          "snippet": "Rain will feature on several days, interspersed with drier spells . Expect rather cloudy conditions, averaging 63% cover, bright or clear for around 135 hours ...",
+          "displayed_url": "https://www.theweatheroutlook.com › forecast › london",
+          "identified_domain": "theweatheroutlook.com",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "missing_terms": [],
+          "query_term_coverage": 1.0
+        },
+        {
+          "result_id": "235db76a356bbcae957ae34739edf4a90727da969c1fd85ad5dedc4591e2563b",
+          "result_position": 8,
+          "valid_entry": true,
+          "title": "London & South East England weather",
+          "snippet": "An unsettled and cloudy day with outbreaks of rain or showers , some of these likely heavy at times. Becoming windy, with a risk of gales near the coast. Maximum ... Read more",
+          "displayed_url": "https://weather.metoffice.gov.uk › forecast › regional",
+          "identified_domain": "weather.metoffice.gov.uk",
+          "query_terms": [
+            "forecast",
+            "london",
+            "weather"
+          ],
+          "title_matched_terms": [
+            "london",
+            "weather"
+          ],
+          "snippet_matched_terms": [],
+          "matched_terms": [
+            "london",
+            "weather"
+          ],
+          "missing_terms": [
+            "forecast"
+          ],
+          "query_term_coverage": 0.6666666666666666
+        }
+      ],
+      "observed_domain_count": 6,
+      "extracted_minus_requested": -2,
+      "count_comparison": "below",
+      "evaluation_status": "usable_domains_extracted",
+      "baseline_comparison_status": "completed",
+      "baseline_domain_count": 6,
+      "matched_domain_count": 6,
+      "matched_domains": [
+        "accuweather.com",
+        "bbc.co.uk",
+        "theweatheroutlook.com",
+        "weather.com",
+        "weather.metoffice.gov.uk",
+        "wunderground.com"
+      ],
+      "baseline_domains_not_observed": [],
+      "additional_domains": [],
+      "baseline_domain_overlap": 1.0
+    }
+  ],
+  "cross_round_comparisons": [
+    {
+      "query": "best running shoes",
+      "selected_rounds": [
+        "round-1",
+        "round-2",
+        "round-3"
+      ],
+      "settings_values": {
+        "language": [
+          "en"
+        ],
+        "country": [
+          "us"
+        ],
+        "proxy_country": [
+          "us"
+        ],
+        "result_count": [
+          10
+        ],
+        "route": [
+          "zenrows_fetch"
+        ]
+      },
+      "settings_missing_in_captures": {},
+      "round_summaries": [
+        {
+          "capture_file": "1best-running-shoes-66aad1ad1c-20261021T142311.835633+0000.json",
+          "round": "round-1",
+          "extracted_entry_count": 8,
+          "identified_domain_count": 7,
+          "unknown_domain_entry_count": 1,
+          "baseline_domain_overlap": 0.6666666666666666
+        },
+        {
+          "capture_file": "2best-running-shoes-bb9b9bbe9b-20261021T150514.666657+0000.json",
+          "round": "round-2",
+          "extracted_entry_count": 8,
+          "identified_domain_count": 7,
+          "unknown_domain_entry_count": 1,
+          "baseline_domain_overlap": 0.5555555555555556
+        },
+        {
+          "capture_file": "best-running-shoes-8613b5296c-20261021T150905.501340+0000.json",
+          "round": "round-3",
+          "extracted_entry_count": 8,
+          "identified_domain_count": 7,
+          "unknown_domain_entry_count": 1,
+          "baseline_domain_overlap": 0.6666666666666666
+        }
+      ],
+      "comparison_status": "completed",
+      "domains_identified_in_all_rounds": [
+        "rtings.com",
+        "runnersworld.com",
+        "runrepeat.com",
+        "sixminutemile.com"
+      ],
+      "domain_presence": {
+        "amazon.com": {
+          "round-1": false,
+          "round-2": true,
+          "round-3": false
+        },
+        "believeintherun.com": {
+          "round-1": true,
+          "round-2": false,
+          "round-3": false
+        },
+        "fleetfeet.com": {
+          "round-1": true,
+          "round-2": false,
+          "round-3": true
+        },
+        "nike.com": {
+          "round-1": false,
+          "round-2": false,
+          "round-3": true
+        },
+        "on.com": {
+          "round-1": true,
+          "round-2": false,
+          "round-3": true
+        },
+        "rei.com": {
+          "round-1": false,
+          "round-2": true,
+          "round-3": false
+        },
+        "rtings.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "runnersworld.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "runrepeat.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "sixminutemile.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "theruntesters.com": {
+          "round-1": false,
+          "round-2": true,
+          "round-3": false
+        }
+      },
+      "pairwise_comparisons": [
+        {
+          "round_a": "round-1",
+          "round_b": "round-2",
+          "shared_domains": [
+            "rtings.com",
+            "runnersworld.com",
+            "runrepeat.com",
+            "sixminutemile.com"
+          ],
+          "domains_only_identified_in_a": [
+            "believeintherun.com",
+            "fleetfeet.com",
+            "on.com"
+          ],
+          "domains_only_identified_in_b": [
+            "amazon.com",
+            "rei.com",
+            "theruntesters.com"
+          ],
+          "domain_jaccard_overlap": 0.4
+        },
+        {
+          "round_a": "round-1",
+          "round_b": "round-3",
+          "shared_domains": [
+            "fleetfeet.com",
+            "on.com",
+            "rtings.com",
+            "runnersworld.com",
+            "runrepeat.com",
+            "sixminutemile.com"
+          ],
+          "domains_only_identified_in_a": [
+            "believeintherun.com"
+          ],
+          "domains_only_identified_in_b": [
+            "nike.com"
+          ],
+          "domain_jaccard_overlap": 0.75
+        },
+        {
+          "round_a": "round-2",
+          "round_b": "round-3",
+          "shared_domains": [
+            "rtings.com",
+            "runnersworld.com",
+            "runrepeat.com",
+            "sixminutemile.com"
+          ],
+          "domains_only_identified_in_a": [
+            "amazon.com",
+            "rei.com",
+            "theruntesters.com"
+          ],
+          "domains_only_identified_in_b": [
+            "fleetfeet.com",
+            "nike.com",
+            "on.com"
+          ],
+          "domain_jaccard_overlap": 0.4
+        }
+      ]
+    },
+    {
+      "query": "coffee grinder reviews",
+      "selected_rounds": [
+        "round-1",
+        "round-2",
+        "round-3"
+      ],
+      "settings_values": {
+        "language": [
+          "en"
+        ],
+        "country": [
+          "us"
+        ],
+        "proxy_country": [
+          "us"
+        ],
+        "result_count": [
+          10
+        ],
+        "route": [
+          "zenrows_fetch"
+        ]
+      },
+      "settings_missing_in_captures": {},
+      "round_summaries": [
+        {
+          "capture_file": "1coffee-grinder-reviews-66aad1ad1c-20261021T142451.968739+0000.json",
+          "round": "round-1",
+          "extracted_entry_count": 9,
+          "identified_domain_count": 8,
+          "unknown_domain_entry_count": 1,
+          "baseline_domain_overlap": 0.7777777777777778
+        },
+        {
+          "capture_file": "2coffee-grinder-reviews-bb9b9bbe9b-20261021T150526.075171+0000.json",
+          "round": "round-2",
+          "extracted_entry_count": 9,
+          "identified_domain_count": 8,
+          "unknown_domain_entry_count": 1,
+          "baseline_domain_overlap": 0.7777777777777778
+        },
+        {
+          "capture_file": "coffee-grinder-reviews-8613b5296c-20261021T150945.044570+0000.json",
+          "round": "round-3",
+          "extracted_entry_count": 9,
+          "identified_domain_count": 8,
+          "unknown_domain_entry_count": 1,
+          "baseline_domain_overlap": 0.8888888888888888
+        }
+      ],
+      "comparison_status": "completed",
+      "domains_identified_in_all_rounds": [
+        "coffeechronicler.com",
+        "coffeegeek.com",
+        "coffeeness.de",
+        "kaldiscoffee.com",
+        "seriouseats.com",
+        "techgearlab.com"
+      ],
+      "domain_presence": {
+        "amazon.com": {
+          "round-1": false,
+          "round-2": true,
+          "round-3": false
+        },
+        "bonappetit.com": {
+          "round-1": false,
+          "round-2": true,
+          "round-3": true
+        },
+        "coffeechronicler.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "coffeecircle.com": {
+          "round-1": true,
+          "round-2": false,
+          "round-3": true
+        },
+        "coffeegeek.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "coffeeness.de": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "kaldiscoffee.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "seriouseats.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "techgearlab.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "thewaytocoffee.com": {
+          "round-1": true,
+          "round-2": false,
+          "round-3": false
+        }
+      },
+      "pairwise_comparisons": [
+        {
+          "round_a": "round-1",
+          "round_b": "round-2",
+          "shared_domains": [
+            "coffeechronicler.com",
+            "coffeegeek.com",
+            "coffeeness.de",
+            "kaldiscoffee.com",
+            "seriouseats.com",
+            "techgearlab.com"
+          ],
+          "domains_only_identified_in_a": [
+            "coffeecircle.com",
+            "thewaytocoffee.com"
+          ],
+          "domains_only_identified_in_b": [
+            "amazon.com",
+            "bonappetit.com"
+          ],
+          "domain_jaccard_overlap": 0.6
+        },
+        {
+          "round_a": "round-1",
+          "round_b": "round-3",
+          "shared_domains": [
+            "coffeechronicler.com",
+            "coffeecircle.com",
+            "coffeegeek.com",
+            "coffeeness.de",
+            "kaldiscoffee.com",
+            "seriouseats.com",
+            "techgearlab.com"
+          ],
+          "domains_only_identified_in_a": [
+            "thewaytocoffee.com"
+          ],
+          "domains_only_identified_in_b": [
+            "bonappetit.com"
+          ],
+          "domain_jaccard_overlap": 0.7777777777777778
+        },
+        {
+          "round_a": "round-2",
+          "round_b": "round-3",
+          "shared_domains": [
+            "bonappetit.com",
+            "coffeechronicler.com",
+            "coffeegeek.com",
+            "coffeeness.de",
+            "kaldiscoffee.com",
+            "seriouseats.com",
+            "techgearlab.com"
+          ],
+          "domains_only_identified_in_a": [
+            "amazon.com"
+          ],
+          "domains_only_identified_in_b": [
+            "coffeecircle.com"
+          ],
+          "domain_jaccard_overlap": 0.7777777777777778
+        }
+      ]
+    },
+    {
+      "query": "weather forecast london",
+      "selected_rounds": [
+        "round-1",
+        "round-2",
+        "round-3"
+      ],
+      "settings_values": {
+        "language": [
+          "en"
+        ],
+        "country": [
+          "gb"
+        ],
+        "proxy_country": [
+          "gb"
+        ],
+        "result_count": [
+          10
+        ],
+        "route": [
+          "zenrows_fetch"
+        ]
+      },
+      "settings_missing_in_captures": {},
+      "round_summaries": [
+        {
+          "capture_file": "1weather-forecast-london-78865a2446-20261021T142523.885082+0000.json",
+          "round": "round-1",
+          "extracted_entry_count": 8,
+          "identified_domain_count": 6,
+          "unknown_domain_entry_count": 0,
+          "baseline_domain_overlap": 1.0
+        },
+        {
+          "capture_file": "2weather-forecast-london-773a8250ca-20261021T150638.328169+0000.json",
+          "round": "round-2",
+          "extracted_entry_count": 8,
+          "identified_domain_count": 6,
+          "unknown_domain_entry_count": 0,
+          "baseline_domain_overlap": 1.0
+        },
+        {
+          "capture_file": "weather-forecast-london-77f2a2f10d-20261021T151019.029646+0000.json",
+          "round": "round-3",
+          "extracted_entry_count": 8,
+          "identified_domain_count": 6,
+          "unknown_domain_entry_count": 0,
+          "baseline_domain_overlap": 1.0
+        }
+      ],
+      "comparison_status": "completed",
+      "domains_identified_in_all_rounds": [
+        "accuweather.com",
+        "bbc.co.uk",
+        "theweatheroutlook.com",
+        "weather.com",
+        "weather.metoffice.gov.uk",
+        "wunderground.com"
+      ],
+      "domain_presence": {
+        "accuweather.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "bbc.co.uk": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "theweatheroutlook.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "weather.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "weather.metoffice.gov.uk": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        },
+        "wunderground.com": {
+          "round-1": true,
+          "round-2": true,
+          "round-3": true
+        }
+      },
+      "pairwise_comparisons": [
+        {
+          "round_a": "round-1",
+          "round_b": "round-2",
+          "shared_domains": [
+            "accuweather.com",
+            "bbc.co.uk",
+            "theweatheroutlook.com",
+            "weather.com",
+            "weather.metoffice.gov.uk",
+            "wunderground.com"
+          ],
+          "domains_only_identified_in_a": [],
+          "domains_only_identified_in_b": [],
+          "domain_jaccard_overlap": 1.0
+        },
+        {
+          "round_a": "round-1",
+          "round_b": "round-3",
+          "shared_domains": [
+            "accuweather.com",
+            "bbc.co.uk",
+            "theweatheroutlook.com",
+            "weather.com",
+            "weather.metoffice.gov.uk",
+            "wunderground.com"
+          ],
+          "domains_only_identified_in_a": [],
+          "domains_only_identified_in_b": [],
+          "domain_jaccard_overlap": 1.0
+        },
+        {
+          "round_a": "round-2",
+          "round_b": "round-3",
+          "shared_domains": [
+            "accuweather.com",
+            "bbc.co.uk",
+            "theweatheroutlook.com",
+            "weather.com",
+            "weather.metoffice.gov.uk",
+            "wunderground.com"
+          ],
+          "domains_only_identified_in_a": [],
+          "domains_only_identified_in_b": [],
+          "domain_jaccard_overlap": 1.0
+        }
+      ]
+    }
+  ],
+  "manual_relevance_summary": {
+    "totals": {
+      "relevant": 75,
+      "irrelevant": 0,
+      "unclear": 0,
+      "unreviewed": 0
+    },
+    "result_appearances": 75,
+    "review_coverage": 1.0,
+    "by_query_and_round": [
+      {
+        "query": "best running shoes",
+        "round": "round-1",
+        "relevant": 8,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      },
+      {
+        "query": "best running shoes",
+        "round": "round-2",
+        "relevant": 8,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      },
+      {
+        "query": "best running shoes",
+        "round": "round-3",
+        "relevant": 8,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      },
+      {
+        "query": "coffee grinder reviews",
+        "round": "round-1",
+        "relevant": 9,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      },
+      {
+        "query": "coffee grinder reviews",
+        "round": "round-2",
+        "relevant": 9,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      },
+      {
+        "query": "coffee grinder reviews",
+        "round": "round-3",
+        "relevant": 9,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      },
+      {
+        "query": "weather forecast london",
+        "round": "round-1",
+        "relevant": 8,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      },
+      {
+        "query": "weather forecast london",
+        "round": "round-2",
+        "relevant": 8,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      },
+      {
+        "query": "weather forecast london",
+        "round": "round-3",
+        "relevant": 8,
+        "irrelevant": 0,
+        "unclear": 0,
+        "unreviewed": 0
+      }
+    ],
+    "unmatched_review_ids": []
+  },
+  "review_input_file": "relevance_review_simplified.csv",
+  "review_output_file": "data/evaluations/multi-round/relevance-review-20261022T100357299816Z.csv"
+}

@@ -1,0 +1,30 @@
+Query: best running shoes
+Reference: manually reviewed Google results in an Incognito browser
+Date shared: 2026-10-21
+Search URL settings: hl=en, gl=us, num=10
+Google footer location: Unknown — Can't determine location
+VPN status: not recorded
+Scope: standalone organic web listings only
+Excluded: videos, sponsored results, shopping products, AI Overview links
+
+Query: coffee grinder reviews
+Reference: manually reviewed Google results in an Incognito browser
+Date shared: 2026-10-21
+Search URL settings shown: hl=en, gl=us
+Requested result count: needs confirmation; the pasted sign-in
+link contains num=10%22, suggesting an extra quotation mark.
+Connection location and VPN status: not recorded
+Scope: standalone organic web listings only
+The pasted browser copy may not include the full bottom of the page.
+
+Query: weather forecast london
+Reference: manually reviewed Google results in an Incognito browser
+Date shared: 2026-10-21
+Search URL settings: hl=en, gl=gb, num=10
+Google footer: United Kingdom; Unknown — Can't determine location
+VPN status: not recorded
+Scope: standalone organic web listings only
+Repeated hostnames are included once.
+
+Both are single browser references, not historical baselines.
+Browser connection locations were not confirmed to match Fetch.
