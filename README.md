@@ -287,7 +287,7 @@ The included nine captures were collected on October 21, 2026, across three quer
 | Coffee grinder reviews | 9 / 9 / 9 | 77.8% / 77.8% / 88.9% | 60.0% / 77.8% / 77.8% |
 | Weather forecast London | 8 / 8 / 8 | 100% / 100% / 100% | 100% / 100% / 100% |
 
-All 75 result appearances were labeled relevant in the supplied review. These include repeats across rounds, not 75 unique pages. The experiment did not provide sufficient evidence to classify the captures as poisoned; the evaluator itself does not assign that classification.
+All 75 result appearances were labeled relevant in the supplied review. These include repeats across rounds, not 75 unique pages. The experiment did not provide evidence to classify the captures as poisoned.
 
 ## Technologies
 
@@ -349,8 +349,4 @@ Inspect `unmatched_review_ids` and confirm that capture filenames and contents h
 
 ## Related article
 
-This repository accompanies the Zenrows article:
-
-Poisoned SERP? How to Scrape Google Search Results Reliably
-
-ARTICLE_URL — 
+[Poisoned SERP? How to Scrape Google Search Results Reliably](https://www.zenrows.com/blog/scrape-google-search-results)
